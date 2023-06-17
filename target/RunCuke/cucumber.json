@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7038444700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to slingo page successfully",
+        "description": "",
+        "id": "slingo;user-should-navigate-to-slingo-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 932040300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 340813600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on accept Cookies",
+            "match": {
+              "location": "SlingoSteps.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "SlingoSteps.iAmOnHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 535742600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on slingo link",
+            "match": {
+              "location": "SlingoSteps.iClickOnSlingoLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 451084600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can verify the text \"Enjoy the World of Slingo with Virgin Games\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enjoy the World of Slingo with Virgin Games",
+                  "offset": 23
+                }
+              ],
+              "location": "SlingoSteps.iCanVerifyTheText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Slingo",
+    "description": "",
+    "id": "slingo",
+    "keyword": "Feature",
+    "uri": "slingo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
